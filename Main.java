@@ -7,6 +7,6 @@ public class Main {
         double number = sc.nextDouble();
         double result = Math.sqrt(number);
         System.out.println("The Square Root of the Number is:"+result);
-        sc.close();
+        sc.close();//closing the scanner object
     }
 }
